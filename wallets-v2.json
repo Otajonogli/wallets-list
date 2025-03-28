@@ -540,5 +540,41 @@
         "extraCurrencySupported": false
       }
     ]
+  },
+  {
+    "app_name": "tontoaster",
+    "name": "TON Toaster",
+    "image": "https://tontoaster.com/static/img/tonconnect-icon.png",
+    "tondns": "coin-master.ton",
+    "about_url": "https://tontoaster.com",
+    "universal_url": "https://app.tontoaster.com/ton-connect",
+    "deepLink": "tontoaster-tc://",
+    "bridge": [
+        {
+            "type": "sse",
+            "url": "https://bridge.tontoaster.com/bridge"
+        },
+        {
+            "type": "js",
+            "key": "tontoaster"
+        }
+    ],
+    "platforms": [
+        "ios",
+        "android",
+        "chrome",
+        "firefox",
+        "safari",
+        "windows",
+        "macos",
+        "linux"
+    ],
+    "features": [
+        {
+            "name": "SendTransaction",
+            "maxMessages": 255,
+            "extraCurrencySupported": false
+        }
+    ]
   }
 ]
